@@ -41,12 +41,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Mapper\EnumerableMapper.cs" />
-    <Compile Include="Mapper\IMapper.cs" />
+    <Compile Include="Contracts\ILoggerService.cs" />
+    <Compile Include="Contracts\IRepository.cs" />
+    <Compile Include="Dtos\CurrencyDto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\Currency\CurrencyService.cs" />
+    <Compile Include="Services\Currency\ICurrencyService.cs" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Services\" />
+    <ProjectReference Include="..\Domain\Domain.csproj">
+      <Project>{BA30D1A9-5E49-47A5-A65B-537FF0D2B221}</Project>
+      <Name>Domain</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

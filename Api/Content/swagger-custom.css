@@ -1,8 +1,0 @@
-﻿/* swagger-custom.css */
-
-/* Override the Swagger logo */
-.swagger-ui-wrap img {
-    content: url('/Content/Images/OweWayLogo.png'); /* Path to your custom logo */
-    /*width: auto; 
-    height: 50px;  */
-}
