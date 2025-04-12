@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-namespace Application.Mapper
+namespace OweWay.Application.Mapper
 {
     public abstract class EnumerableMapper<TSource, TDestination> : IMapper<TSource, TDestination>
     {

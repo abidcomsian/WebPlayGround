@@ -1,5 +1,4 @@
-﻿using Application.Mapper;
-using Unity;
+﻿using Unity;
 
 namespace OweWay.Bootstrapper
 {

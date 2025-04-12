@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Application.Mapper
+namespace OweWay.Application.Mapper
 {
     public interface IMapper<TSource, TDestination>
     {

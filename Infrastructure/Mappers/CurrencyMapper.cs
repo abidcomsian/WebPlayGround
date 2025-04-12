@@ -1,4 +1,4 @@
-﻿using Application.Mapper;
+﻿using OweWay.Application.Mapper;
 using System;
 
 namespace OweWay.Infrastructure.Mappers
