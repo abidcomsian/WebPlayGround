@@ -12,8 +12,5 @@ namespace OweWay.Api.Controllers
             var absoluteUrl = Url.Content("~/swagger");
             return Redirect(absoluteUrl);
         }
-
-
-
     }
 }
